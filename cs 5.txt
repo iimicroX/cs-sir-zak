@@ -1,0 +1,24 @@
+declare str1:  string 
+declare currentc: string 
+declare counter: integer
+declare nov: integer
+const vowels = "a,e,i,o,u"
+
+str1 = ""
+currentc = ''
+nov = 0
+counter = 0
+
+print "enter string"
+input = str1 
+
+For Count 1 To Length(str1)
+currentc = Middle (str1, Counter, 1)
+If InStr(vowels, currentc) > 0 Then
+     
+nov = nov + 1
+
+End If
+Next
+ print "COUNT OF VOWELS ARE "  nov 
+       

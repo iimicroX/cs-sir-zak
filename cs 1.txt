@@ -1,0 +1,29 @@
+declare str1 : string 
+declare all : string 
+declare currentc : character 
+declare count : count 
+declare flag : boolean 
+
+str1 = ""
+all = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+count = 0
+flag = true 
+currentc = ' '
+
+print "enter string"
+input = str1 
+str1 = upercase 
+
+for count 1 to length(all)
+currentc = mid(all,count,1)
+if inst(str1,currentc) = 0 then 
+flag = false 
+
+exit for 
+end if 
+
+if flag = true then 
+print"String entered has all alphabets"
+else 
+print "entered string doesnt have all alphabets"
+end if 

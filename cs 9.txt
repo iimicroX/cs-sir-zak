@@ -1,0 +1,25 @@
+declare  str1 : String
+declare  str2 : String
+declare  lc : String
+declare  fc : String
+declare  ns : String
+declare  ns2 : String
+
+str1 = ""
+str2 = ""
+lc = ""
+fc = ""
+ns = ""
+ns2 = ""
+
+print ("Enter string 1 for the calculations: ")
+str1 = input
+print ("Enter string 2 for the calculations: ")
+str2 = input
+
+lc = Left(str1, 2)
+fc = Left(str2, 2)
+ns = Mid(str1, 3, Len(str1) - 2)
+ns2 = Mid(str2, 3, Len(str2) - 2)
+
+print fc  ns lc  ns2

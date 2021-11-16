@@ -1,0 +1,35 @@
+declare str1: string
+declare alpha: integer 
+declare alphabets : string 
+declare numbers: string  
+declare digits: integer
+declare other :integer
+declare counter:integer
+declare current : character 
+
+str1 = ""
+alpha = 0
+counter = 0
+digits = 0
+alphabets = "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z"
+numbers = "1,2,3,4,5,6,7,8,9"
+current = ' '
+
+print " please enter sentence"
+input = str1
+
+for count 1 to length(str1)
+current = mid(str1,counter,1)
+  
+if instr(alphabets,current) > 0 then 
+alpha = alpha + 1
+ElseIf
+InStr(numbers, current) > 0 Then 
+digits = digits + 1
+ Else : other = other + 1
+  End If
+ Next counter
+print"Number of alphabets:" alpha
+print"Number of other: " other 
+print "Number of digits: " digits 
+

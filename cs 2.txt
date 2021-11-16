@@ -1,0 +1,36 @@
+declare str1 : string 
+declare str2 : string
+declare currentc: character 
+declare chara : character 
+declare charb:character 
+declare counter : integer
+
+str1 = ""
+str2 = ""
+chara = ' ' 
+charb = ' '
+currentc = ""
+counter = ""
+
+print "write string"
+input = str1 
+
+print " enter character to replace "
+input = chara
+
+print " enter character to replace with"
+input = charb
+
+for count 1 to length(str1)
+
+currentc = mid(str1,count,1)
+
+if currentc = chara then currentc = charb 
+
+end if 
+
+str2= str2+currentc 
+
+next 
+
+print str2 

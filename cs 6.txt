@@ -1,0 +1,11 @@
+declare nd :integer
+
+print" enter no. of donuts "
+input = nd 
+
+if nd > 10 then 
+print " many donuts "
+else 
+print " the number of donuts are: " nd 
+
+end if 

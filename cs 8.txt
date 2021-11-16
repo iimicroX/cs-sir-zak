@@ -1,0 +1,29 @@
+
+declare str1 : String
+declare chara : Char
+declare counter : Integer
+declare currentc : Char
+declare str2 : String
+
+str1 = ""
+chara = ""
+str2 = ""
+currentc = ""
+counter = 0
+
+print ("ple:e enter word: ")
+str1 = Console.ReadLine
+
+chara = Left(str1, 1)
+
+For count 2 To length(str1)
+
+currentc = Mid(str1, counter, 1)
+
+If currentc = chara Then
+currentc = "*"
+
+End If
+str2 = str2 & currentc
+
+print chara str2 

@@ -1,0 +1,23 @@
+declare count : integer 
+declare str1 : string 
+declare : string 
+
+count = 0
+currents = ""
+str1 = ""
+
+print "enter string "
+input = str1
+lowercase str1 
+if length(str1) > 2 then 
+if right (str1,3) = "ing" then 
+currents = str1 + "ily"
+print currents 
+
+else 
+
+currents = str1 + "ing"
+print currents 
+end if 
+else 
+print str1

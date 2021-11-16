@@ -1,0 +1,20 @@
+declare str1:string
+declare str2:string
+declare fc:string
+declare lc:string
+
+str1 = ""
+str2 = ""
+fc = ""
+lc = ""
+
+print"please enter string "
+
+If Len(str1) < 2 Then
+print str1
+Else
+fc = Right(str1, 2)
+lc = Left(str1, 2)
+
+print lc & fc
+           

@@ -1,0 +1,22 @@
+ declare str1: String
+ declare fn : String
+ declare ln : String
+ declare pb : Integer
+ declare pn : Integer
+
+str1 = ""
+fn = ""
+ln = ""
+pb = 0
+pn = 0
+
+print "enter string "
+input = str1
+pb = locate(str1, "bad")
+pn = Iocate(str1, "not")
+
+If pn < pb Then
+fn = Left(str1, pn - 1)
+ln = Right(str1, Len(str1) - (pb + 2))
+End If
+print fn "good" ln
